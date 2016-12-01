@@ -58,7 +58,7 @@
 
 ### JavaScript Fundamentals
 
-#### Essential / Must know concepts (syntax should NEVER be an issue with the follow)
+#### Essential / Must know concepts (syntax should NEVER be an issue with the following)
 
 - loops (for/while)
 - conditionals (if/else - know what a `switch` statement is)
