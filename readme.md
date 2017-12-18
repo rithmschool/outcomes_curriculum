@@ -32,41 +32,24 @@
 - Make sure students get 50-100 applications out over the 4 weeks so they can experience tons of rejection while still with us
 - We have to make them feel like they're making progress
 - Have students bcc us on every job application (send screenshot) / cold email and followup (app academy did this, they never really checked the emails but used them as a reference and it helped students stay accountable)
+- Give students small projects for their tasks (CSS, React, Backend, etc.)
+- Always an imperfect application (always apply on the earlier side)
 
-#### Behavioral Exercises 
+#### Behavioral Exercises / Lectures
 - Role play coffee date / asking for coffee and what to say 
 - Cold email exercise
 - Role play phone screen / behavioral interview prep
 - focus on self care and mindset  
+- telling your story
+- How to handle rejection
 
 #### Technical Lecture Topics
 - Systems Design
-- How to handle rejection
 - Integration of data structure and algorithms 
 - Talking when not knowing the answer (and have a technical list of all tools to try to solve stuff)- **so important to teach**
-- Always an imperfect application (always apply on the earlier side)
 - How everything we've learned fits together
 - Systems design / integration 
-
-
-
-- 
 - Teach pattern matching - see it done well 
-- Technical concepts 
-
+- Technical concepts review (REST, HTTP, caching)
 - Stories and mental models to say smarter things and inferences 
 
-- have students apply and rejected 
-- Talk about it and we help you develop the narrative around it 
-- We have to make them feel like they're making progress
-- No tech curriculum for everyone 
-- 1:1 tech coaching 
-- Start with assessment - focus on self care and mindset 
-
-- Small project 
- - accountability - send screenshots of applications and bcc intros 
-- role play asking for coffee and what to say 
-- Practice cold emails
-- Send us cold emails 
-- All the stuff to fake it 
-- You're gonna freeze - what's your plan?
