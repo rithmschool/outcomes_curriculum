@@ -1,8 +1,22 @@
 ### Tracks
 
-1 - Google/Top companies
-2 - Startups / Larger companies
-3 - Review fundamentals
+Start with Assessment
+
+- Fundamentals
+- Problem Solving
+    - Engineering
+        - Data Structures + Algorithms
+        - Systems Design
+        - Database Design   
+    - Web Development / Full Stack   
+        - HTML / CSS 
+        - JS
+        - APIs + Databases
+        - React
+    - Front-end
+        - HTML / CSS  
+        - JS
+        - React     
 
 ### Behavioral
 

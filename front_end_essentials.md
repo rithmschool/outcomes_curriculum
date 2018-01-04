@@ -50,7 +50,6 @@
 	- What are common differences?
 - Flexbox
 
-
 ### HTML + CSS Practice
 
 - Replicate other sites
@@ -126,7 +125,7 @@
 
 #### Intermediate JS - these are must knows for interviews, but make sure there is 100% confidence in the topics above before continuing here
 
-- testing with JavaScript (mocha/chai)
+- testing with JavaScript (mocha/chai, jasmine, or jest)
 - reduce
 - promises
 - es2015 (arrow functions, let/const, class keyword, destructuring, object shorthand notation)
@@ -140,7 +139,7 @@
 - OOP Terms (abstraction, polymorphism, encapsulation)
 - Event loop
 
-#### Advanced JS - may show up in more difficult interviews, good to know conceptually, wonderful if you can implement/use it
+#### Advanced JS - these topics may show up in more difficult interviews, good to know conceptually, wonderful if you can implement/use it
 
 - currying
 - composing
@@ -149,4 +148,14 @@
 - es2015 (generators, map, set)
 - design patterns
 - immutability
+
+#### Practice
+
+- Codefights
+- Building React Apps 
+- 
+
+
+
+
 
