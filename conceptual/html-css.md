@@ -7,6 +7,7 @@
 * what is accessibility? What kinds of elements and attributes are essential for basic accessibility?
 * What is a `meta` tag? What kind of information is placed in there?
 * What are some important elements/attributes for SEO?
+* What is accessibility? What HTML elements/attributes contribute to more accessible websites?
 
 ### CSS Fundamentals
 

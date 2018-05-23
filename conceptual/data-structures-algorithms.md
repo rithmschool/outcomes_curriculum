@@ -31,5 +31,5 @@
 [https://github.com/kdn251/interviews/tree/master/Company](https://github.com/kdn251/interviews/tree/master/Company)
 
 * Complete the Rithm repl.it classroom
-* Codefights
+* Codefights / Leetcode / Hackerrank
 * Cracking the Coding Interview

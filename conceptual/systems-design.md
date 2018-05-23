@@ -18,3 +18,10 @@
 14. Vertical Scaling
 15. SOA
 16. Microservice
+
+## Excellent Resources
+
+[David Malan CS75 Scaling](https://www.youtube.com/watch?v=-W9F__D3oY4)
+[High Scalability](http://highscalability.com/)
+[Netflix Microservices](https://www.youtube.com/watch?v=CZ3wIuvmHeM)
+[Success In Tech](https://www.youtube.com/channel/UC-vYrOAmtrx9sBzJAf3x_xw)

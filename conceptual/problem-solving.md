@@ -22,7 +22,7 @@
 
 Patterns you've seen so far
 
-#### Frequency Count
+#### Frequency Counter
 
 * Build a data structure to see how often something appears or if that data structure already contains information
 * Objects (Maps) are useful for this

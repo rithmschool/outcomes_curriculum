@@ -64,7 +64,7 @@
 * hoisting
 * timers (setInterval / setTimeout)
 * IIFE
-* DOM manipulation using jQuery or vanilla JS
+* DOM manipulation using jQuery AND vanilla JS
 
 #### Intermediate JS - these are must knows for interviews, but make sure there is 100% confidence in the topics above before continuing here
 
