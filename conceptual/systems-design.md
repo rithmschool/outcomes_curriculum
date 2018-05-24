@@ -3,21 +3,20 @@
 ### Essential Terms
 
 1.  IaaS
-2.  Paas
+2.  PaaS
 3.  CDN
 4.  Database index
-5.  N+1 Query
-6.  SQL Caching
-7.  Fragment Caching
-8.  CPU
-9.  RAM
-10. HTTP Caching
-11. Message Queue
-12. Load Balancing
-13. Horizontal Scaling
-14. Vertical Scaling
-15. SOA
-16. Microservice
+5.  SQL Caching
+6.  Fragment Caching
+7.  CPU
+8.  RAM
+9.  HTTP Caching
+10. Message Queue
+11. Load Balancing
+12. Horizontal Scaling
+13. Vertical Scaling
+14. SOA
+15. Microservice
 
 ## Excellent Resources
 
