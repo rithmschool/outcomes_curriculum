@@ -31,5 +31,7 @@
 [https://github.com/kdn251/interviews/tree/master/Company](https://github.com/kdn251/interviews/tree/master/Company)
 
 * Complete the Rithm repl.it classroom
-* Codefights / Leetcode / Hackerrank
+* [Codefights](https://codefights.com/) - work on Arcade / Data Structures + Algorithms
+* [Leetcode](https://leetcode.com/) - try to solve medium problems
+* [https://www.hackerrank.com](Hackerrank)
 * Cracking the Coding Interview

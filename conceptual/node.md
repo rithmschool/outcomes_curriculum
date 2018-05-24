@@ -12,20 +12,3 @@
 8.  Rate Limiting
 9.  JWT
 10. Structuring Express applications
-
-## Challenges
-
-* Build a game
-
-  * Tic Tac Toe
-  * Hangman
-  * Minesweeper
-  * Checkers
-  * Simon
-
-* Use an
-  * Tic Tac Toe
-  * Hangman
-  * Minesweeper
-  * Checkers
-  * Simon
