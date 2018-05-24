@@ -1,4 +1,4 @@
-## React + Redux
+## Object Oriented Programs
 
 ### Essential Terms / Concepts
 

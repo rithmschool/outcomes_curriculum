@@ -1,4 +1,4 @@
-### JavaScript Fundamentals
+## JavaScript Fundamentals
 
 #### Essential / Must know concepts (syntax should NEVER be an issue with the following)
 

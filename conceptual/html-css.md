@@ -1,4 +1,4 @@
-### HTML Fundamentals
+## HTML Fundamentals
 
 * what is an element?
 * what is an attribute?

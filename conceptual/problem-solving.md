@@ -1,4 +1,4 @@
-### Building an Approach
+## Building an Approach
 
 1.  Read the problem statement - make sure you understand the problem! Don’t assume ANYTHING
 
