@@ -1,4 +1,4 @@
-## Object Oriented Programs
+## Object Oriented Programming / Design
 
 ### Essential Terms / Concepts
 
