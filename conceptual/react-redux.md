@@ -25,6 +25,7 @@
   * Minesweeper
   * Checkers
   * Simon
+  * Rebuild Hack or Snooze in React!
 
 * Use an API to build a small application
 
