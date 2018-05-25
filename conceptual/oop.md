@@ -14,8 +14,6 @@
 10. Interface
 11. "Favor Composition over Inheritance"
 12. Multiple Inheritance
-13. Redux-thunk
-14. Thunk
 
 ## Challenges
 

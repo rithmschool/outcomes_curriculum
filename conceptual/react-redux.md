@@ -14,6 +14,7 @@
 10. Store
 11. Redux-thunk
 12. Thunk
+13. React 16.3 / 16.4 changes
 
 ## Challenges
 
@@ -26,6 +27,9 @@
   * Simon
 
 * Use an API to build a small application
+
   * Giphy API
   * Dad Jokes API
   * [https://github.com/toddmotto/public-apis](https://github.com/toddmotto/public-apis)
+
+* Try some of the front-end challenges!

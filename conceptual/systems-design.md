@@ -9,7 +9,7 @@
 5.  SQL Caching
 6.  Fragment Caching
 7.  CPU
-8.  RAM
+8.  RAM vs HD
 9.  HTTP Caching
 10. Message Queue
 11. Load Balancing
