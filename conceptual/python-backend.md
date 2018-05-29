@@ -8,6 +8,8 @@
 4.  SQLAlchemy
 5.  Web Scraping
 6.  FileIO
+7.  WTForms + Web Security
+8.  Server Side Templating
 
 ## Next Steps
 
