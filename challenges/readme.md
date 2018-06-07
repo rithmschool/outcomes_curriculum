@@ -5,6 +5,7 @@
 * [https://github.com/JoinColony/coding-challenge](https://github.com/JoinColony/coding-challenge)
 * [https://github.com/LithodomosVR/react-coding-challenge](https://github.com/LithodomosVR/react-coding-challenge)
 * [https://github.com/TandaHQ/work-samples](https://github.com/TandaHQ/work-samples)
+* [https://github.com/mcmakler/frontend-code-challenge](https://github.com/mcmakler/frontend-code-challenge)
 
 ### Backend
 
