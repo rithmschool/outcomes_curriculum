@@ -4,13 +4,36 @@ class Board {
   constructor() {
     this.ships = [];
     this.view = Array.from({ length: Board.__WIDTH }, () =>
-      Array.from({ length: Board.__HEIGHT }).fill("")
+      Array.from({ length: Board.__HEIGHT }).fill(" ")
     );
     this.__placeAllShips();
   }
 
+  get columnLabels() {
+    return Array.from({ length: Board.__WIDTH }, (_, i) =>
+      String.fromCharCode(65 + i)
+    );
+  }
+
+  get rowLabels() {
+    return Array.from({ length: Board.__WIDTH }, (_, i) => i.toString());
+  }
+
   print() {
-    
+    let commasToPipes = arr => arr.toString().replace(/,/g, " | ");
+    let count = Board.__WIDTH + 1;
+    let rowsToPrint = [
+      `${" ".repeat(4)}${"+---".repeat(count - 1)}+`,
+      `${" ".repeat(4)}| ${commasToPipes(this.columnLabels)} |`,
+      ...this.view.map(
+        (viewRow, i) =>
+          `${"+---".repeat(count)}+\n| ${this.rowLabels[i]} | ${commasToPipes(
+            viewRow
+          )} |`
+      ),
+      `${"+---".repeat(count)}+`
+    ];
+    rowsToPrint.forEach(row => console.log(row));
   }
 
   __placeAllShips() {
@@ -45,7 +68,6 @@ class Board {
     this.ships.push(newShip);
     return true;
   }
-
 }
 
 Board.__WIDTH = 10;
