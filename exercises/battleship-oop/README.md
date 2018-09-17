@@ -10,3 +10,5 @@ For some background, here are the rules of the game.
 4. After each strike, the player receives learns whether they hit their opponent or missed.
 5. If an opponent's ship is sunk, this is also announced to the player. (e.g. "You sunk your opponent's ship!")
 6. Whoever sinks all of their opponent's ships first wins the game.
+
+To get the solution running, `cd` into the `solution` folder, `npm install`, and run `node index.js`.
