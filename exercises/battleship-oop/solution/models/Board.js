@@ -9,25 +9,15 @@ class Board {
     this.__placeAllShips();
   }
 
-  get columnLabels() {
-    return Array.from({ length: Board.__WIDTH }, (_, i) =>
-      String.fromCharCode(65 + i)
-    );
-  }
-
-  get rowLabels() {
-    return Array.from({ length: Board.__WIDTH }, (_, i) => i.toString());
-  }
-
   print() {
     let commasToPipes = arr => arr.toString().replace(/,/g, " | ");
     let count = Board.__WIDTH + 1;
     let rowsToPrint = [
       `${" ".repeat(4)}${"+---".repeat(count - 1)}+`,
-      `${" ".repeat(4)}| ${commasToPipes(this.columnLabels)} |`,
+      `${" ".repeat(4)}| ${commasToPipes(Board.columnLabels)} |`,
       ...this.view.map(
         (viewRow, i) =>
-          `${"+---".repeat(count)}+\n| ${this.rowLabels[i]} | ${commasToPipes(
+          `${"+---".repeat(count)}+\n| ${Board.rowLabels[i]} | ${commasToPipes(
             viewRow
           )} |`
       ),
@@ -50,7 +40,7 @@ class Board {
           startY = Math.floor(Math.random() * (Board.__HEIGHT - length + 1));
         }
         newShip = new Ship(startX, startY, length, orientation);
-      } while (this.__tryToPlaceShip(newShip));
+      } while (!this.__tryToPlaceShip(newShip));
     });
   }
 
@@ -72,6 +62,12 @@ class Board {
 
 Board.__WIDTH = 10;
 Board.__HEIGHT = 10;
+Board.columnLabels = Array.from({ length: Board.__WIDTH }, (_, i) =>
+  String.fromCharCode(65 + i)
+);
+Board.rowLabels = Array.from({ length: Board.__HEIGHT }, (_, i) =>
+  i.toString()
+);
 Board.__INITIAL_SHIP_LENGTHS = [5, 4, 3, 3, 2];
 
 module.exports = Board;
