@@ -9,12 +9,18 @@ class Game {
     this.player2 = new Player(player2Name);
     let attacker = this.player1;
     let defender = this.player2;
-
-    while (!this.__isOver()) {
+    do {
+      defender.board.print();
       let coords = await attacker.fireMissile();
       defender.checkForHit(coords);
       [attacker, defender] = [defender, attacker];
-    }
+      await promptly.confirm("Press return to continue.", { default: "y" });
+      this.__clearScreen();
+    } while (!this.__isOver());
+  }
+
+  __clearScreen() {
+    console.clear();
   }
 
   __isOver() {
@@ -22,6 +28,7 @@ class Game {
     if (this.player1.hasLost()) winner = this.player2;
     if (this.player2.hasLost()) winner = this.player1;
     if (winner) console.log(`Game Over, ${winner.name} wins!`);
+    return winner;
   }
 }
 
