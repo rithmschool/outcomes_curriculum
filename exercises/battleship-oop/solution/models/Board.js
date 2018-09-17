@@ -10,20 +10,25 @@ class Board {
   }
 
   print() {
-    let commasToPipes = arr => arr.toString().replace(/,/g, " | ");
-    let count = Board.__WIDTH + 1;
-    let rowsToPrint = [
-      `${" ".repeat(4)}${"+---".repeat(count - 1)}+`,
-      `${" ".repeat(4)}| ${commasToPipes(Board.columnLabels)} |`,
-      ...this.view.map(
-        (viewRow, i) =>
-          `${"+---".repeat(count)}+\n| ${Board.rowLabels[i]} | ${commasToPipes(
-            viewRow
-          )} |`
-      ),
-      `${"+---".repeat(count)}+`
+    let tableHeader = [" ", ...Board.columnLabels];
+    let tableRows = [
+      tableHeader,
+      ...this.view.map((viewRow, i) => [Board.rowLabels[i], ...viewRow])
     ];
-    rowsToPrint.forEach(row => console.log(row));
+    tableRows.forEach(row => {
+      console.log(this.__tableRowBorder());
+      console.log(this.__tableRowContent(row));
+    });
+    console.log(this.__tableRowBorder());
+  }
+
+  __tableRowBorder() {
+    return "+---".repeat(Board.__WIDTH + 1) + "+";
+  }
+
+  __tableRowContent(dataArray) {
+    let dataStr = dataArray.join(" | ");
+    return `| ${dataStr} |`;
   }
 
   __placeAllShips() {
